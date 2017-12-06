@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+html{
+  margin: 0;
+  min-height 100vh;
+}
+
+body{
+  margin:0;
+  min-height 100vh;
+    background-color: #151515;
+}
+
+.global-container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+/* Font Styles */
+
+.content-text-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-text-body{
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* End of Font Styles */
+
+/* Header Style */
+
+.header-logo {
+  letter-spacing: 0.2rem;
+  margin-left: 1em;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color:white;
+}
+
+.header-navigation {
+  margin-right:1em;
+}
+
+.header-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  min-width: 100%;
+}
+
+.header-navigation-navlink {
+  display: inline-block;
+  padding: 0 0 0 1rem;
+}
+
+/* End of Header Style */
+
+/* Hero Style */
+
+.hero-content {
+  height: 25em;
+  max-width: 980px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.4rem;
+  color: white;
+}
+
+.hero-content-subtitle {
+  margin-top:-0.5em;
+}
+
+/*canvas style */
+
+canvas{
+  z-index: -1;
+}
