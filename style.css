@@ -8,7 +8,7 @@ html{
 body{
   margin:0;
   min-height 100vh;
-    background-color: #151515;
+    background-color: #190c40;
 }
 
 .global-container {
@@ -71,6 +71,10 @@ body{
   align-items: center;
   letter-spacing: 0.4rem;
   color: white;
+  background-image: url(https://cdn.dribbble.com/users/106600/screenshots/3548829/loader-ai-siri_2x.gif);
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: center;
 }
 
 .hero-content-subtitle {
@@ -79,6 +83,8 @@ body{
 
 /*canvas style */
 
-canvas{
-  z-index: -1;
-}
+/*canvas{
+  display: inline-flex;
+  /*max-width: 980px; max-height: 25rem;*/
+  top: 2rem;
+}*/

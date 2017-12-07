@@ -16,6 +16,7 @@
     <main class="content-wrapper">
       <!-- Hero class -->
       <div class="hero-content content-text-title">
+        <!-- <canvas><script src="canvas.js"></script></canvas> -->
         <h1 class="hero-content-title">ROSS TAYLOR</h1>
         <p class="hero-content-subtitle content-text-body">Techie, Gamer and true <span class="hero-subtitle-red">red devil</span>! :) </p>
         <div class="hero-buttons">
