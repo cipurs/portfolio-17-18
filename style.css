@@ -81,10 +81,25 @@ body{
   margin-top:-0.5em;
 }
 
-/*canvas style */
+/* Canvas style */
 
 /*canvas{
   display: inline-flex;
-  /*max-width: 980px; max-height: 25rem;*/
+  max-width: 980px; max-height: 25rem;
   top: 2rem;
 }*/
+
+
+/* Card Styling */
+
+.index-wrapper-cards{
+  display: flex;
+  justify-content: space-between
+  flex-wrap: wrap;
+}
+
+.index-content-cards{
+  flex: 0 1 calc(33% - 1em);
+}
+
+/* https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/ */
