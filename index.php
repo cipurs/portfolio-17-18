@@ -23,9 +23,34 @@
           <button class="hero-content-button hero-content-hero-button-download"></button>
           <button class="hero-content-button hero-content-button-internal"></button>
       </div>
-
       </div>
       <!-- End of Hero class -->
+      <div class="index-content-portfolio">
+        <h2 class="content-title">LATEST WORK</h2>
+        <lb>
+          <!-- Start of Cards -->
+          <div class="index-wrapper-cards">
+            <!-- First Card -->
+            <article class="index-content-cards card-1">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">First item info.</p>
+            </article>
+            <!-- End of First Card -->
+            <!-- Second Card -->
+            <article class="index-content-cards card-2">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">Second item info.</p>
+            </article>
+            <!-- End of Second Card -->
+            <!-- Third Card -->
+            <article class="index-content-cards card-3">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">Third item info.</p>
+            </article>
+            <!-- End of Third Card -->
+          </div>
+          <!-- End of Cards -->
+      </div>
     </main>
     <?php include('footer.php'); ?>
   </div>
