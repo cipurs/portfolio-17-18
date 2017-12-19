@@ -103,3 +103,27 @@ body{
 }
 
 /* https://getflywheel.com/layout/how-to-use-flexbox-to-create-a-modern-card-design-layout/ */
+
+
+/* Slightly responsive cards */
+
+@media screen and (min-width: 40em) {
+    
+  .index-wrapper-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+ 
+    .index-content-cards {
+        flex: 0 1 calc(50% - 1em);
+    }
+}
+ 
+
+@media screen and (min-width: 60em) {
+    .card {
+        flex: 0 1 calc(25% - 1em);
+    }
+}
+ 
