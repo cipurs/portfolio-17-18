@@ -1,1 +1,3 @@
-# portfolio-17-18
+# Portfolio-17-18
+
+Creative UX Designer Portfolio
