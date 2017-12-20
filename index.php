@@ -28,8 +28,9 @@
       <div class="index-content-portfolio">
         <h2 class="content-title">LATEST WORK</h2>
         <lb>
-          <!-- Start of Cards -->
-          <div class="index-wrapper-cards">
+          
+          <!-- Start of Cards row 1 -->
+          <div class="index-wrapper-cards index-cards-firstrow">
             <!-- First Card -->
             <article class="index-content-cards card-1">
               <h3 class="index-card-title content-text-title">Item Title</h3>
@@ -49,7 +50,31 @@
             </article>
             <!-- End of Third Card -->
           </div>
-          <!-- End of Cards -->
+          <!-- End of Cards row 1 -->
+          
+          <!-- Start of Cards row 2 -->
+          <div class="index-wrapper-cards index-cards-firstrow">
+            <!-- First Card -->
+            <article class="index-content-cards card-4">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">Fourth item info.</p>
+            </article>
+            <!-- End of First Card -->
+            <!-- Second Card -->
+            <article class="index-content-cards card-5">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">Fifth item info.</p>
+            </article>
+            <!-- End of Second Card -->
+            <!-- Third Card -->
+            <article class="index-content-cards card-6">
+              <h3 class="index-card-title content-text-title">Item Title</h3>
+              <p class="content-text-body">Sixth item info.</p>
+            </article>
+            <!-- End of Third Card -->
+          </div>
+          <!-- End of Cards row 2 -->
+          
       </div>
     </main>
     <?php include('footer.php'); ?>
